@@ -1624,8 +1624,5 @@ class Document {
     this.html = this.html.replaceAll("PLACEHOLDER_API_READY", isApiReady ? "block" : "hidden");
 
     return this.html.replaceAll(/PLACEHOLDER_\w+/gim, "");
-
-      wrangler.toml
-      name = 'leletvpn';
   }
 }
