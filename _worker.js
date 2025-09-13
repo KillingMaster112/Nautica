@@ -1,12 +1,12 @@
 import { connect } from "cloudflare:sockets";
 
 // Variables
-const rootDomain = "rianfadil567.workers.dev"; // Ganti dengan domain utama kalian
+const rootDomain = "rexxaservices.site"; // Ganti dengan domain utama kalian
 const serviceName = "leletvpn"; // Ganti dengan nama workers kalian
 const apiKey = "WHahk3AD-g5Ik7cS3aTBzvV4QrzJ0FoBsyIF7V6f"; // Ganti dengan Global API key kalian (https://dash.cloudflare.com/profile/api-tokens)
 const apiEmail = "rianfadil567@gmail.com"; // Ganti dengan email yang kalian gunakan
 const accountID = "88bf5c5a9e5013eb251b424608f59f54"; // Ganti dengan Account ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
-const zoneID = ""; // Ganti dengan Zone ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
+const zoneID = "55a46bba377fad3dc1ffc628f55e5c46"; // Ganti dengan Zone ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
 let isApiReady = false;
 let proxyIP = "";
 let cachedProxyList = [];
